@@ -10,7 +10,7 @@ function App() {
              <p className='font-bold text-yellow-500 animated-outline bg-white p-4 rounded-3xl bg-opacity-25 text-7xl'>Chirayu Kanthasa's</p>
              <p className='font-bold text-yellow-400 text-6xl p-4 typing-animation'>Portfolio</p>
              <div>
-                <a href="">
+                <a target='blank' href="/public/P2.pdf">
                   <button className='bg-orange-300 border-4 border-orange-400 shadow-2xl font-bold text-3xl rounded-2xl mx-10 mt-40 py-6 px-16'>
                     <p className='animate-bounce hover:text-blue-600 transition-all text-white'>View Here</p>
                   </button>
