@@ -1,0 +1,39 @@
+
+
+.gradient-bg {
+    background: linear-gradient(to bottom left, #741d1d, #be6c6c, #3a2c2c), linear-gradient(to bottom, transparent, #000000);
+    background-blend-mode: normal, normal;
+  }
+  
+
+@keyframes move-rgb {
+    0% {
+      box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(0, 255, 0), 0 0 30px rgb(0, 0, 255);
+    }
+    50% {
+      box-shadow: 20px 20px 10px rgb(0, 255, 0), 10px 10px 20px rgb(0, 0, 255), 0 0 30px rgb(255, 0, 0);
+    }
+    100% {
+      box-shadow: -20px -20px 10px rgb(0, 0, 255), -10px -10px 20px rgb(255, 0, 0), 0 0 30px rgb(0, 255, 0);
+    }
+  }
+  
+  .animated-outline {
+    animation: move-rgb 2s infinite linear alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .typing-animation {
+    overflow: hidden;
+    display: inline-block;
+    animation: typing 4s steps(40) infinite;
+  }
+  
